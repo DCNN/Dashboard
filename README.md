@@ -7,11 +7,11 @@
 ## 项目目标
 
 1. 设计分配具体任务给各个 slave 的算法；
-1. 设计并实现一个 Android 端的 master APP(Group Owner)，作为任务的发起者；
+1. 设计并实现一·个 Android 端的 master APP(Group Owner)，作为任务的发起者；
 1. 设计并实现具体 slave 执行任务的逻辑；
 1. 考虑 slave 的异质性，并尝试使用 WebSocket 协议进行解决；
 
 ## 技术栈
 
-1. Master 端暂定使用 Java 实现一个 WebSocket 服务器；
-1. Slave 端使用 Vue 制作 UI，并通过 JavaScript 以及 Google 的 Deeplearning.js 完成 Master 分派的任务。
+1. Master 端暂定使用 Java 实现一个 WebSocket 服务器；
+1. Slave 端使用 Vue 制作 UI，并通过 JavaScript 以及 Google 的 Deeplearning.js 完成 Master 分派的任务。
